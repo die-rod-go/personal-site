@@ -4,6 +4,7 @@
 </script>
 
 <Header />
+<!-- intro section -->
 <div class="min-h-screen bg-cus-background">
   <main class="pt-10 p-5">
     <div class="relative max-w-fit ml-16 mt-36">
@@ -18,5 +19,8 @@
       A software developer from Pennsylvania
     </p>
   </main>
+</div>
+<div class>
+
 </div>
 <Footer />
