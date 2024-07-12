@@ -4,11 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        //"cus-primary": "#D33F49",
-        "cus-primary": "#FF6969",
-        "cus-secondary": "#0C1844",
-        "cus-accent": "#C80036",
-        "cus-background": "#FFF5E1",
+        "cus-primary": "var(--cus-primary)",
+        "cus-secondary": "var(--cus-secondary)",
+        "cus-accent": "var(--cus-accent)",
+        "cus-background": "var(--cus-background)",
       },
     },
   },

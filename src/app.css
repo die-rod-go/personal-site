@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.home-colors {
+  --cus-primary: #ff6969;
+  --cus-secondary: #0c1844;
+  --cus-accent: #56baa4;
+  --cus-background: #fff5e1;
+}
+
+.showcase-colors {
+  --cus-primary: #6b1fb1;
+  --cus-secondary: #cc3495;
+  --cus-accent: #f8e3c4;
+  --cus-background: #0b0630;
+}

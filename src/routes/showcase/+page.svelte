@@ -1,15 +1,15 @@
 <script lang="ts">
-  import NameCard from "../components/NameCard.svelte";
-  import FadeIn from "../components/FadeIn.svelte";
-  import CardWithShadow from "../components/CardWithShadow.svelte";
+  import NameCard from "../../components/NameCard.svelte";
+  import FadeIn from "../../components/FadeIn.svelte";
+  import CardWithShadow from "../../components/CardWithShadow.svelte";
 </script>
 
 <!-- intro section -->
-<main class="home-colors">
+<main class="showcase-colors">
   <div class="pt-10 p-5 min-h-screen bg-cus-background">
     <FadeIn>
       <NameCard
-        cardText="Hi, I'm Diego"
+        cardText="Hi, I'm Diego."
         subtitle="A software developer from Pennsylvania"
       />
     </FadeIn>
