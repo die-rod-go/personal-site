@@ -17,7 +17,7 @@
 <header class="fixed top-0 w-full font-mono z-50 {routeColors}">
   <div class="h-2 bg-cus-primary"></div>
   <nav
-    class="flex justify-items-end w-full items-center transition-all duration-300 ease-in-out pb-2"
+    class="flex justify-items-end w-full items-center transition-all duration-300 ease-in-out pb-2 hover:bg-cus-primary"
     class:bg-cus-primary={scrolled}
   >
     <ul

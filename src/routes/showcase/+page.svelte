@@ -1,43 +1,25 @@
 <script lang="ts">
-  import NameCard from "../../components/NameCard.svelte";
   import FadeIn from "../../components/FadeIn.svelte";
   import CardWithShadow from "../../components/CardWithShadow.svelte";
+  import { ChevronDown, Icon } from "svelte-hero-icons";
+  import BouncingDownArrow from "../../components/BouncingDownArrow.svelte";
 </script>
 
-<!-- intro section -->
-<main class="showcase-colors">
-  <div class="pt-10 p-5 min-h-screen bg-cus-background">
-    <FadeIn>
-      <NameCard
-        cardText="Hi, I'm Diego."
-        subtitle="A software developer from Pennsylvania"
-      />
-    </FadeIn>
-  </div>
-  <!-- about me section -->
-  <div class="p-10 bg-cus-secondary min-h-screen">
-    <FadeIn>
-      <h class="font-mono text-cus-background text-4xl">About me</h>
-    </FadeIn>
-    <div class="h-10"></div>
-    <FadeIn>
-      <CardWithShadow
-        cardText="I am a 22 year old software developer currently attending Temple University"
-      />
-    </FadeIn>
-    <FadeIn>
-      <div class="flex justify-end mt-20">
-        <CardWithShadow
-          cardText="Super duper awesome cool information about Diego Rodriguez"
-        />
-      </div>
-    </FadeIn>
-    <FadeIn>
-      <div class="mt-20">
-        <CardWithShadow
-          cardText="Blah blah blah blah blah blah more cool info about Diego"
-        />
-      </div>
-    </FadeIn>
-  </div>
-</main>
+<body class="showcase-colors font-mono">
+  <main class="bg-cus-background">
+    <div class="pt-10 min-h-screen bg-cus-background relative">
+      <FadeIn>
+        <div class="p-5">
+          <CardWithShadow
+            tailwind="w-1/2 ml-16 mt-40"
+            cardText="Below are some projects of mine. Some finished, some not. Feel free to look around."
+          />
+        </div>
+      </FadeIn>
+      <BouncingDownArrow />
+    </div>
+    <div class="flex justify-center bg-cus-primary">
+      <div class="w-9/12 bg-cus-accent h-1" />
+    </div>
+  </main>
+</body>
