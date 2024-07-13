@@ -2,16 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+.secondary-colors {
+  --home-secondary: #6a7fdb;
+  --blog-secondary: #f4d35e;
+  --showcase-secondary: #638863;
+  --contact-secondary: #c96749;
+}
+
 .home-colors {
-  --cus-primary: #ff6969;
-  --cus-secondary: #0c1844;
-  --cus-accent: #fff5e1;
-  --cus-background: #fff5e1;
+  --cus-primary: #913175;
+  --cus-secondary: #6a7fdb;
+  --cus-accent: #d7bcc9;
+  --cus-background: #20262e;
 }
 
 .showcase-colors {
   --cus-primary: #913175;
-  --cus-secondary: #d7bcc9;
-  --cus-accent: #638863;
+  --cus-secondary: #638863;
+  --cus-accent: #d7bcc9;
   --cus-background: #20262e;
 }
+
+/* --cus-secondary: #ff4242; */

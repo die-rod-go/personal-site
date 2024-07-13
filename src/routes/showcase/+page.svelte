@@ -1,8 +1,8 @@
 <script lang="ts">
   import FadeIn from "../../components/FadeIn.svelte";
   import CardWithShadow from "../../components/CardWithShadow.svelte";
-  import { ChevronDown, Icon } from "svelte-hero-icons";
   import BouncingDownArrow from "../../components/BouncingDownArrow.svelte";
+  import Separator from "../../components/Separator.svelte";
 </script>
 
 <body class="showcase-colors font-mono">
@@ -17,9 +17,6 @@
         </div>
       </FadeIn>
       <BouncingDownArrow />
-    </div>
-    <div class="flex justify-center bg-cus-primary">
-      <div class="w-9/12 bg-cus-accent h-1" />
     </div>
   </main>
 </body>
