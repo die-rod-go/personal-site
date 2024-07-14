@@ -1,6 +1,6 @@
 <script lang="ts">
   const threshold = 0.5;
-  const fadeInSpeed = 700;
+  export let duration = "700";
   let inView = false;
   function actionWhenInViewport(e: Element) {
     const options = {
@@ -20,7 +20,7 @@
 </script>
 
 <div
-  class="transition-opacity ease-in duration-500"
+  class="transition-opacity ease-in duration-{duration}"
   class:opacity-0={!inView}
   class:opacity-100={inView}
   use:actionWhenInViewport

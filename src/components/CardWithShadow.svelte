@@ -4,7 +4,7 @@
 </script>
 
 <div class="relative max-w-fit {tailwind}">
-  <div class="bg-cus-primary p-16 w-fit relative z-20 right-0">
+  <div class="bg-cus-primary p-16 w-fit relative z-10 right-0">
     <p class="text-cus-accent font-mono font text-2xl">
       {cardText}
     </p>
