@@ -4,6 +4,7 @@
   import CardWithShadow from "../components/CardWithShadow.svelte";
   import BouncingDownArrow from "../components/BouncingDownArrow.svelte";
   import Separator from "../components/Separator.svelte";
+  import Card from "../components/Card.svelte";
 </script>
 
 <!-- intro section -->
@@ -20,30 +21,37 @@
     <BouncingDownArrow />
   </div>
   <!-- about me section -->
-  <div class="p-10 min-h-screen space-y-20">
+  <div class="p-20 min-h-screen space-y-20">
     <FadeIn>
       <h class="text-cus-accent text-4xl">About me</h>
     </FadeIn>
     <FadeIn>
-      <CardWithShadow
-        tailwind="w-2/3"
-        cardText="I am a 22 year old software developer currently attending Temple University"
-      />
+      <Card tailwind="w-2/3">
+        <p class="text-cus-accent font-mono font text-2xl">
+          I am a 22 year old software developer currently attending Temple
+          University
+        </p>
+      </Card>
     </FadeIn>
     <FadeIn>
       <div class="flex justify-end">
-        <CardWithShadow
-          tailwind="w-2/3"
-          cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        />
+        <Card tailwind="w-2/3">
+          <p class="text-cus-accent font-mono font text-2xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </Card>
       </div>
     </FadeIn>
     <FadeIn>
       <div>
-        <CardWithShadow
-          tailwind="w-2/3"
-          cardText="Blah blah blah blah blah blah more cool info about Diego"
-        />
+        <Card tailwind="w-2/3">
+          <p class="text-cus-accent font-mono font text-2xl">
+            Blah blah blah blah blah blah more cool info about Diego
+          </p>
+        </Card>
       </div>
     </FadeIn>
   </div>

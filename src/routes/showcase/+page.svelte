@@ -28,8 +28,8 @@
 <div class="mt-32">
   <BackGroundVideo videoSrc={Idle} />
 </div>
-<div class="p-5">
-  <div class="m-16 space-y-20">
+<div class="p-20">
+  <div class="space-y-20">
     <div class="flex items-center">
       <VideoCard videoSrc={Cliff} />
       <p class="m-10 text-xl w-1/3 text-balance">
